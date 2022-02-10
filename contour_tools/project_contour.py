@@ -89,7 +89,7 @@ class GenericContourOperation:
             except StopIteration:
                 show_error(_("Contour not selected"), _("Please select contour"))
                 return
-            if not cont.has_z:
+            if not cont.geometry.is_3d:
                 show_error(_("No height for contour"), _("Please add heights to selected contour"))
                 return
             pb = ProgressBar(self.progress_text)

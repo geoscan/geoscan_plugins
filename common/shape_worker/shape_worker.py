@@ -78,6 +78,18 @@ def create_shape(vertices: list, chunk: PhotoScan.Chunk = None, label: str = "",
     return shp
 
 
+def flatten_list(input_list):
+    if not input_list:
+        return []
+    output_list = []
+    for i in input_list:
+        if not isinstance(i, list):
+            output_list.append(i)
+        else:
+            output_list += flatten_list(i)
+    return output_list
+
+
 def create_layer(shapes: list, label: str, chunk: PhotoScan.Chunk = None,
                  is_enabled: bool = True, show_labels: bool = True,
                  z_coord: float = None, shape_type: str = 'Polygon', boundary_type: str = 'NoBoundary'):

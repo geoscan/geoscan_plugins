@@ -1,10 +1,10 @@
 # ВАЖНО!!!
 
-Плагины переехали на [gitlub](https://gitlab.com/gsrsdp/crossroad).
+Плагины переехали на [gitlab](https://gitlab.com/gsrsdp/crossroad).
 
 Мы планируем убрать этот репозиторий из публичного доступа в начале 2023 года.
 
-Pull requests, всё также, приветствуются, но уже в [gitlub](https://gitlab.com/gsrsdp/crossroad) :wink:
+Pull requests, всё также, приветствуются, но уже в [gitlab](https://gitlab.com/gsrsdp/crossroad) :wink:
 Работы там много. 
 
 И всем спасибо, кто поддерживал и принимал участие в разработке или починке этих плагинов.
